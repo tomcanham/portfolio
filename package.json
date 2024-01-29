@@ -4,6 +4,7 @@
   "repository": "https://github.com/tomcanham/portfolio.git",
   "author": "Tom Canham <alphasimian@gmail.com>",
   "license": "MIT",
+  "homepage": "https://tomcanham.github.io/portfolio/dist",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
