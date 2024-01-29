@@ -1,9 +1,12 @@
 import React from "react";
 
-export const App = () => {
+const App = () => {
   return (
     <div>
-      <h1>React TypeScript Webpack Starter Template</h1>
+      <h1>Tom Canham</h1>
+      <h2>Portfolio</h2>
     </div>
   );
 };
+
+export default App;
