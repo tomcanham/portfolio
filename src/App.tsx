@@ -1,10 +1,10 @@
 import React from "react";
+
+import "./app.scss";
+import data from "./assets/data.json";
+
 import Resume from "./Resume";
 import Languages from "./Languages";
-import "./app.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouseLaptop } from "@fortawesome/free-solid-svg-icons";
-import data from "./assets/data.json";
 import Frameworks from "./Frameworks";
 import Technologies from "./Technologies";
 
@@ -29,7 +29,6 @@ const App = () => {
     <div>
       <h1>
         <strong>Tom Canham</strong>
-        <FontAwesomeIcon icon={faHouseLaptop} />
       </h1>
       <Resume jobs={data.jobs} />
       <Languages languages={data.languages.sort(byProficiency)} />
