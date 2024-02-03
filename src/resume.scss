@@ -1,0 +1,29 @@
+.resume {
+  .job {
+    h3 {
+      color: #e19797;
+      font-style: italic;
+      text-decoration: underline;
+      font-size: 1.2rem;
+    }
+
+    .dates {
+      font-style: italic;
+      color: #e19797;
+    }
+
+    margin-bottom: 1rem;
+  }
+
+  .contract {
+    font-style: normal;
+    text-decoration: none;
+    vertical-align: super;
+    font-size: smaller;
+    color: #e19797;
+  }
+
+  footer {
+    font-size: smaller;
+  }
+}
