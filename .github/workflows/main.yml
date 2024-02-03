@@ -3,14 +3,46 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    environment:
+      name: production
+      url: https://tomcanham.github.io/portfolio/
+
     steps:
       - name: checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: use Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
+
       - name: install dependencies
         run: npm install
+
       - name: build
         run: npm run build
+
+      - name: setup git
+        run: |
+          git config --global user.email "alphasimian@gmail.com"
+          git config --global user.name "Tom Canham (via GitHub Actions)"
+
+      - name: configure pages
+        uses: actions/configure-pages@v3
+
+      - name: upload artifacts
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "./dist"
+
+      - name: deploy
+        id: deployment
+        uses: actions/deploy-pages@v1
