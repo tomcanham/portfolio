@@ -4,10 +4,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout repository
         uses: actions/checkout@v3
-      - name: Use Node.js
+      - name: use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
-
+          node-version: "18.x"
+      - name: install dependencies
+        run: npm install
+      - name: build
+        run: npm run build
