@@ -8,17 +8,21 @@ I'm a software engineer with expertise in Python, automation, and system integra
 
 ## 📂 Featured Projects
 
-### 🎵 [Music Agent with Reactive Polling](https://github.com/tomcanham/music-agent)
-**Technologies**: Python, Spotify API, SQLite, AppleScript, Unix Sockets
+### 🎵 [Intelligent Music Agent](https://github.com/tomcanham/intelligent-music-agent)
+**Technologies**: Python, Spotify API, OAuth, SQLite, AppleScript, Unix Sockets, Natural Language Processing
 
-A comprehensive music agent that automatically analyzes and tags your music as you listen. Features include:
-- **Reactive Polling**: Automatically detects track changes and analyzes new music
-- **Auto-tagging**: Intelligent genre and mood classification using Spotify's API
-- **Fuzzy Search**: Find songs with partial titles, lyrics, or artist names
-- **Background Daemon**: Runs as a service with Unix socket communication
-- **Local Database**: SQLite storage for preferences, history, and tags
+A sophisticated music management system with AI-powered analysis, natural language commands, and comprehensive Spotify integration. Features include:
+- **Smart Shuffle**: Intelligent shuffle for liked songs and custom playlists with auto-daemon startup
+- **Natural Language Processing**: Conversational commands like "shuffle liked songs" or "play some mellow music"
+- **Advanced OAuth Integration**: Full Spotify API access with secure credential management
+- **Intelligent Auto-Tagging**: Automatic genre, mood, and energy classification with fuzzy matching
+- **Lyric-Based Discovery**: Find songs by remembering just fragments of lyrics
+- **Reactive Intelligence**: Automatically learns from listening habits with real-time sync
+- **Playlist Management**: Local sync and intelligent playback of all Spotify playlists
+- **Daemon Architecture**: Background service with Unix socket IPC and threaded polling
+- **Comprehensive CLI**: Professional command-line interface with auto-completion
 
-*This project demonstrates system architecture design, API integration, background processing, and real-time data analysis.*
+*This project showcases advanced system architecture, API integration, natural language processing, background services, security best practices, and user experience design.*
 
 ### 🛠️ Additional Projects
 
@@ -32,17 +36,20 @@ A comprehensive music agent that automatically analyzes and tags your music as y
 - **SQL** - Proficient (SQLite, database design)
 
 ### Technologies & Tools
-- **APIs & Integration** - Spotify Web API, RESTful services
-- **Database Systems** - SQLite, data modeling
-- **System Programming** - Unix sockets, daemon processes, threading
-- **Version Control** - Git, GitHub workflows
-- **Development Tools** - macOS development, CLI tools
+- **APIs & Integration** - Spotify Web API, OAuth 2.0, RESTful services
+- **Database Systems** - SQLite, data modeling, schema design
+- **System Programming** - Unix sockets, daemon processes, threading, IPC
+- **Security** - OAuth authentication, secure credential management
+- **Version Control** - Git, GitHub workflows, open source project management
+- **Development Tools** - macOS development, CLI tools, virtual environments
 
 ### Specializations
-- **Music Technology** - Audio analysis, metadata processing
-- **Automation & Scripting** - System automation, workflow optimization  
-- **Background Services** - Daemon architecture, inter-process communication
-- **Real-time Processing** - Event-driven systems, polling mechanisms
+- **Music Technology** - Audio analysis, metadata processing, playlist management
+- **Natural Language Processing** - Command parsing, fuzzy matching, conversational interfaces
+- **Automation & Scripting** - System automation, workflow optimization, AppleScript integration
+- **Background Services** - Daemon architecture, inter-process communication, reactive systems
+- **Real-time Processing** - Event-driven systems, polling mechanisms, state management
+- **User Experience Design** - CLI interfaces, auto-completion, intuitive command structures
 
 ## 🎯 Current Focus
 
