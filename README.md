@@ -4,7 +4,7 @@ Welcome to my software engineering portfolio! This repository showcases my proje
 
 ## 🚀 About Me
 
-I'm a software engineer with expertise in Python, automation, and system integration. I enjoy building practical tools that solve real-world problems and enhance developer productivity.
+I'm a software engineer with expertise spanning from high-performance systems programming to enterprise architecture. I specialize in building sophisticated applications that bridge cutting-edge technology with practical solutions. My work ranges from WebAssembly-optimized browser applications to event-driven distributed systems, always focusing on performance, scalability, and exceptional user experience.
 
 ## 📂 Featured Projects
 
@@ -24,32 +24,65 @@ A sophisticated music management system with AI-powered analysis, natural langua
 
 *This project showcases advanced system architecture, API integration, natural language processing, background services, security best practices, and user experience design.*
 
+### 🦀 [WASM Maze Generator & Pathfinder](https://github.com/tomcanham/wasm-maze)
+**Technologies**: Rust, WebAssembly, TypeScript, React, Canvas 2D API, A* Algorithm
+
+A high-performance maze generation and pathfinding visualization that pushes the boundaries of web technology. This project demonstrates the power of Rust compiled to WebAssembly for computationally intensive browser applications. Features include:
+- **Blazing Fast Maze Generation**: Recursive backtracking algorithm implemented in Rust for optimal performance
+- **Intelligent Pathfinding**: A* search algorithm visualization with real-time path discovery
+- **Rust/WASM Integration**: Seamless interoperability between Rust computational core and JavaScript UI
+- **Interactive Visualization**: Real-time rendering using HTML5 Canvas with responsive user controls
+- **Zero-Copy Data Transfer**: Efficient memory management between WASM and JavaScript contexts
+
+*This project exemplifies modern web performance optimization, algorithm implementation expertise, and cross-language system integration. It represents the cutting edge of browser-based computational applications.*
+
+### 🛒 [Event-Sourced Grocery Store](https://github.com/tomcanham/esdb-grocery-store) 
+**Technologies**: TypeScript, EventStoreDB, GraphQL Federation, NestJS, CQRS, Event Sourcing
+
+An enterprise-grade demonstration of event-driven architecture and advanced distributed system patterns. This project showcases sophisticated backend engineering through a realistic e-commerce domain model. Key architectural features:
+- **Pure Event Sourcing**: Complete audit trail using EventStoreDB with immutable event streams
+- **CQRS Implementation**: Command-Query Responsibility Segregation for optimal read/write performance
+- **GraphQL Federation**: Microservices composition using federated GraphQL schema
+- **Domain-Driven Design**: Rich domain models with proper aggregate boundaries and business logic encapsulation
+- **Eventual Consistency**: Distributed system coordination with projection-based read models
+
+*This project demonstrates mastery of enterprise software architecture, distributed systems theory, and event-driven design patterns essential for scalable, maintainable business applications.*
+
 ### 🛠️ Additional Projects
 
-*More projects will be added as they are developed and open-sourced.*
+*Additional projects showcasing full-stack development, real-time systems, and specialized domains are available in my repository collection.*
 
 ## 🔧 Technical Skills
 
 ### Languages
 - **Python** - Advanced (API integration, automation, data processing)
+- **Rust** - Proficient (WebAssembly, performance-critical algorithms, systems programming)
+- **TypeScript** - Advanced (Enterprise applications, GraphQL, event-driven architectures)
+- **JavaScript** - Proficient (React, Canvas API, browser-based applications)
 - **Shell Scripting** - Proficient (Bash, AppleScript automation)
-- **SQL** - Proficient (SQLite, database design)
+- **SQL** - Proficient (SQLite, PostgreSQL, database design)
 
 ### Technologies & Tools
-- **APIs & Integration** - Spotify Web API, OAuth 2.0, RESTful services
-- **Database Systems** - SQLite, data modeling, schema design
+- **APIs & Integration** - Spotify Web API, OAuth 2.0, RESTful services, GraphQL Federation
+- **Database Systems** - SQLite, PostgreSQL, EventStoreDB, event sourcing, CQRS
 - **System Programming** - Unix sockets, daemon processes, threading, IPC
+- **WebAssembly** - Rust/WASM compilation, browser performance optimization
+- **Event-Driven Architecture** - Event sourcing, CQRS, distributed systems, microservices
 - **Security** - OAuth authentication, secure credential management
 - **Version Control** - Git, GitHub workflows, open source project management
-- **Development Tools** - macOS development, CLI tools, virtual environments
+- **Development Tools** - macOS development, CLI tools, virtual environments, Docker
 
 ### Specializations
+- **Performance Engineering** - WebAssembly optimization, algorithm implementation, zero-copy operations
+- **Enterprise Architecture** - Event sourcing, CQRS, domain-driven design, distributed systems
+- **Algorithm Design** - A* pathfinding, maze generation, recursive backtracking, graph algorithms
 - **Music Technology** - Audio analysis, metadata processing, playlist management
 - **Natural Language Processing** - Command parsing, fuzzy matching, conversational interfaces
 - **Automation & Scripting** - System automation, workflow optimization, AppleScript integration
 - **Background Services** - Daemon architecture, inter-process communication, reactive systems
 - **Real-time Processing** - Event-driven systems, polling mechanisms, state management
 - **User Experience Design** - CLI interfaces, auto-completion, intuitive command structures
+- **Cross-Language Integration** - Rust/JavaScript interop, WASM bindings, polyglot systems
 
 ## 🎯 Current Focus
 
