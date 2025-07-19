@@ -48,6 +48,21 @@ An enterprise-grade demonstration of event-driven architecture and advanced dist
 
 *This project demonstrates mastery of enterprise software architecture, distributed systems theory, and event-driven design patterns essential for scalable, maintainable business applications.*
 
+### 🔐 **Enterprise Identity & Access Management Platform**
+**Technologies**: Go, gRPC, Protocol Buffers, Python, Docker, Kubernetes, Ansible, Redis, PostgreSQL, LDAP, OAuth 2.0/OIDC, SAML
+
+A large-scale enterprise identity and access management platform serving critical authentication and authorization infrastructure. This system represents production-grade engineering for high-availability, security-critical services. Key architectural components:
+- **Multi-Protocol Authentication**: OAuth 2.0, OIDC, SAML 2.0, and LDAP integration with federated identity support
+- **gRPC & REST APIs**: Dual-protocol service architecture with Protocol Buffers for type-safe, high-performance communication
+- **Distributed Architecture**: Microservices deployment with service discovery, load balancing, and circuit breakers
+- **Certificate Management**: Automated PKI infrastructure with certificate lifecycle management and rotation
+- **Production Deployment**: Kubernetes orchestration, Ansible automation, and Docker containerization across multiple environments
+- **Observability Stack**: Prometheus metrics, Grafana dashboards, Jaeger distributed tracing, and structured logging
+- **Policy Engine**: Fine-grained authorization with policy-as-code and dynamic permission evaluation
+- **High Availability**: Multi-region deployment, graceful failover, and zero-downtime updates
+
+*This project exemplifies enterprise-scale engineering practices, security-first architecture, and production operations expertise essential for mission-critical infrastructure systems.*
+
 ### 🛠️ Additional Projects
 
 *Additional projects showcasing full-stack development, real-time systems, and specialized domains are available in my repository collection.*
