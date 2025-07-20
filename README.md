@@ -109,7 +109,7 @@ I'm currently working on:
 ## 📫 Contact
 
 - **GitHub**: [@tomcanham](https://github.com/tomcanham)
-- **Email**: tcanham@apple.com
+- **Email**: alphasimian@gmail.com
 
 ## 🌟 Repository Statistics
 
